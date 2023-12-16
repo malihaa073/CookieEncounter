@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:id="@+id/fnn"
+        android:text="Items: White Forest"
+        android:textSize="18sp"
+        android:textColor="@color/black">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:id="@+id/fnp"
+        android:text="Price: 72"
+        android:textSize="18sp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:id="@+id/fnbn"
+        android:text="Name: Sarah"
+        android:textSize="18sp"
+        android:textColor="@color/black">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:id="@+id/fnphn"
+        android:text="Phone: 01876096648"
+        android:textSize="18sp"
+        android:textColor="@color/black">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:id="@+id/fnad"
+        android:text="Address: Somewhere"
+        android:textSize="18sp"
+        android:textColor="@color/black">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:id="@+id/fndi"
+        android:text="Instruction: Something"
+        android:textSize="18sp"
+        android:textColor="@color/black">
+
+    </TextView>
+
+
+
+</LinearLayout>

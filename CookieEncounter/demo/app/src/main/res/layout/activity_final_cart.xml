@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FinalCart"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/all_logo_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Place Order"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:transitionName="logo_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:fontFamily="@font/autour_one"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <ListView
+        android:id="@+id/llistviewId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dividerHeight="4dp"
+        android:listSelector="#E8A6BD"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="10dp"
+        android:layout_marginBottom="80dp"
+        android:layout_marginTop="60dp">
+
+
+    </ListView>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Place Order"
+        app:layout_constraintTop_toBottomOf="@+id/llistviewId"
+        tools:layout_editor_absoluteX="10dp"
+        android:onClick="Placed">
+
+    </Button>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
